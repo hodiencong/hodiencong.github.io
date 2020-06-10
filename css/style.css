@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b4da8', end
 }
 /* Navigation */
 #nav {
-	z-index: 9999;
+	z-index: 9998;
 }
 #nav.affix {
 	position: fixed;
@@ -639,4 +639,11 @@ header .intro-text {
 .language-bar ul{
     right: 10px;
     position: absolute ;
+}
+.language-bar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
 }
