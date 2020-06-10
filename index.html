@@ -24,19 +24,31 @@
 <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
 <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css
+
+' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 <!-- Header -->
 <header id="header">
+    
   <div class="intro text-center">
+
     <div class="overlay">
-      <div class="container">
+        <div class="language-bar">
+            <ul>
+                <li> <span onclick="changeLanguage(this.id)" title="Viet Nam" id="vn" class="flag-icon flag-icon-vn"></span></li>
+                <li> <span onclick="changeLanguage(this.id)" title="Japan" id="jp" class="flag-icon flag-icon-jp"></span> </li>
+                <li> <span onclick="changeLanguage(this.id)" title="English" id="en" class="flag-icon flag-icon-us"></span></li>
+            </ul>
+        </div>
+      <div class="container pd-100px">
         <div class="row">
           <div class="intro-text">
-            <h1>HO DIEN CONG</h1>
-            <p>Software Engineer</p>
+            <h1 ><span id="name"></p></h1>
+            <p id="job"></p>
             
             <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
         </div>
@@ -77,7 +89,7 @@
       <hr>
     </div>
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about-me.jpg" class="img-responsive"  style="height: auto;" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/examle.png" class="img-responsive"  style="height: auto;" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
           <p>
@@ -416,8 +428,8 @@
 <script type="text/javascript" src="js/jquery.counterup.js"></script> 
 <script type="text/javascript" src="js/waypoints.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="counter.txt"></script>
+<script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/changeLanguage.js"></script>
 </body>
 </html>

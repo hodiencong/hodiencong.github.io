@@ -106,14 +106,4 @@ $('#nav').affix({
 
 }
 
-function updateCounter()
-{
-   
-    fetch('file:///lib/counter.txt')
-  .then(response => response.text())
-  .then(text => console.log(text))
-}
-
 main();
-
-updateCounter();

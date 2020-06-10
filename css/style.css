@@ -214,7 +214,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	padding: 100px 0;
+	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b4da8+0,4977c2+100&0.85+0,0.85+100 */
 	background: -moz-linear-gradient(left, rgba(107,77,168,0.85) 0%, rgba(73,119,194,0.85) 100%); /* FF3.6-15 */
 	    background: linear-gradient(to right, rgba(237, 227, 240, 0.85) 0%, rgba(72, 128, 128, 0.85) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -629,4 +629,16 @@ header .intro-text {
 	float: left;
 	margin-bottom: 20px;
 }
+}
+.language-bar li {
+    display: inline;
+    cursor: pointer; 
+}
+
+.pd-100px {
+    padding: 100px 0px;
+}
+.language-bar ul{
+    right: 10px;
+    position: absolute ;
 }
